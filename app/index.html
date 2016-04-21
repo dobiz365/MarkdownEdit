@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/MarkdownEdit.css"/>
+<link rel="stylesheet" type="text/css" href="css/prism.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<style>
+body{
+	padding:0;
+	margin:0;
+}
+.title{
+	text-align:left;
+	font-size:24px;
+	padding:10px 0;
+	font-weight:bold;
+	background:#444;
+	color:#fff;
+	text-indent:18px;
+	border-bottom:1px dashed #888;
+}
+</style>
+</head>
+<body>
+<div id='caption' class="title">Markdown编辑器V1.0版</div>
+<textarea class="markdown" id="edit"></textarea>
+<input style="display:none;" id="openFileDialog" type="file"/>
+<input style="display:none;" type="file"  id="saveFileDialog" nwsaveas="file.md" />
+<input style="display:none;" type="file"  id="openImgDialog"  accept="image/gif,image/jpeg,image/jpg,image/png"/>
+
+
+<script src="js/MarkdownEdit.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

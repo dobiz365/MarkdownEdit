@@ -1,0 +1,282 @@
+.markdown_dialog_mask{
+	position:absolute;
+	background:rgba(9,9,9,0.6);
+	left:0;
+	top:0;
+	z-index:99;
+}
+
+.markdown_dialog{
+	position:fixed;
+	background:#f6f6f3;
+	border:none;
+	width:500px;
+	height:200px;
+	z-index:100;
+	left:0;
+	top:0;
+	padding:0;
+	border-radius:3px;
+}
+.markdown_dialog h3{
+	padding:10px 10px;
+	padding-bottom:0;
+	margin:5px 0;
+}
+.markdown_dialog div{
+	padding:10px 10px;
+}
+.markdown_dialog button{
+	font-size:16px;
+	padding:8px 20px;
+	border:none;
+	cursor:pointer;
+	border-radius:3px;
+}
+.markdown_dialog .ok{
+	float:right;
+	background:#3c6a81;
+	color:#fff;
+}
+
+.markdown_dialog .cancel{
+	float:left;
+	background:#ddd;
+	color:#222;
+}
+.markdown_dialog input{
+	font-size:16px;
+	width:100%;
+	height:26px;
+	margin-bottom:15px;
+}
+
+.markdownedit_toolbar{
+	background:#444;
+	height:36px;
+	line-height:36px;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+.markdownedit_toolbar:after{
+	content:'';
+	clear:both;
+	float:none;
+	overflow:hidden;
+}
+
+.markdownedit_toolbar ul{
+	list-style:none;
+	margin:0;
+	padding:0 5px;
+	color:#999;
+	font-size:18px;
+}
+.markdownedit_toolbar li{
+	float:left;
+	margin:0 10px;
+}
+
+.markdown{
+	font-family:Menlo,"Ubuntu Mono",Consolas,"Courier New",Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+	line-height:2;
+	border:1px solid #ccc;
+	width:100%;
+	font-size:18px;
+	margin:0;
+	color:#000;
+	padding:5px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	position:absolute;
+	left:0;
+	top:0;
+	resize:none;
+}
+
+.markdown_edit_preview{
+	position:relative;
+	height:300px;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+.markdown_edit_preview:after{
+	content:'';
+	clear:both;
+	float:none;
+	overflow:hidden;
+}
+
+.markdown_preview{
+	font-size:16px;
+	line-height:2;
+	padding:5px;
+	border:1px solid #444;
+	background-color:#fff;
+	color:#222;
+	font-family:PingFang SC,Hiragino Sans GB,Microsoft Yahei,WenQuanYi Micro Hei,sans-serif;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	background-image: URL('../images/Preview.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.markdown_preview pre{
+	padding:5px;
+	background-color:#f1f2ef;
+}
+
+
+
+.markdown_preview hr{
+	border: 0;
+	border-bottom: 1px dashed #cfcfcf;
+	margin: 20px 0;
+}
+
+.markdown_preview a{
+	text-decoration:none;
+	color: #08c;
+}
+.markdown_preview a:hover {
+    text-decoration: underline;
+}
+
+.markdown_preview code{
+	border: 0;
+    background-color: #D6DBDF;
+    border-radius: 4px;
+    color: #2C3E50;
+    font-size: 90%;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+.markdown_preview p{
+	margin:3px;
+	padding:0;
+	text-indent:2em;
+}
+
+.markdown_preview h1{
+	font-size:30px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+	
+}
+
+.markdown_preview h2{
+	font-size:26px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+}
+
+.markdown_preview h3{
+	font-size:22px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+}
+.markdown_preview h4{
+	font-size:20px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+	
+}
+.markdown_preview h5{
+	font-size:18px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+	
+}
+.markdown_preview h6{
+	font-size:16px;
+	font-weight:bold;
+	margin:3px;
+	padding:0;
+	color:#222;
+	
+}
+.markdown_preview img{
+	text-decoration:0;
+	max-width:100%;
+	border:none;
+	clear: both; 
+	margin:10px auto; 	
+}
+
+
+.markdown_preview_quote_div{
+	margin-left:1em;
+	border-left:10px solid #d6dbdf;
+	background-color:#f1f2ef;
+}
+
+.markdown_preview_quote_div p{
+	color:#222;
+	padding:10px 0px 10px 10px;
+	background-color:#f1f2ef;
+	text-indent:0em;
+}
+
+.markdown_preview ol{
+	margin:8px 0;
+	margin-left:1em;
+	padding:3px;
+	padding-left:1em;
+}
+
+.markdown_preview ul{
+	margin:8px 0;
+	margin-left:1em;
+	padding:3px;
+	padding-left:1em;
+}
+
+.markdown_preview table{
+	margin:10px auto;
+	width:100%;
+	border:1px solid #aaa;
+}
+
+.markdown_preview th{
+	background-color:#ddd;
+	padding:5px 3px;
+	border-left:1px dashed #bbb;
+}
+.markdown_preview th:first-child{	
+	border-left:none;
+}
+.markdown_preview tr:nth-child(odd){
+	background-color:#eee;
+}
+
+.markdown_preview tr:hover td{
+	background-color:#EFFFD7;
+}
+
+.markdown_preview td	{
+	text-align:center;
+	padding:5px 3px;
+	border-left:1px dashed #bbb;
+}
+.markdown_preview td:first-child{	
+	border-left:none;
+}

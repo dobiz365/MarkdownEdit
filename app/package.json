@@ -1,0 +1,11 @@
+{
+	"name":"hello word",
+	"main":"app/index.html",
+	
+	"window":{
+		"title":"Markdown编辑器V1.0版",
+		"width":800,
+		"height":600,
+		"position":null
+	}
+}
